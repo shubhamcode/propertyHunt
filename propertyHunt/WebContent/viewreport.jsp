@@ -24,12 +24,12 @@
 
 <p>
 
-<form action="reportgenerator">
+<form action="reportgenerator" method="post" enctype="multipart/form-data">
 
-<input type="file" name="sheet"> Upload File for calculation
+<input type="file" name="sheet" multiple> 
 <br><br>
 
-<button type="submit">View Average Price </button>
+<button type="submit">Upload File for calculation </button>
 </form>
 </p>
 
